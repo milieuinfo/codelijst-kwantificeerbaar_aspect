@@ -276,24 +276,11 @@ omg_ps:kwantificeerbaar_aspect_notation
     a                sh:PropertyShape ;
     rdfs:label       "notatie"@en ;
     sh:name          "notatie"@en ;
-    sh:description   "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema."@en ;
+    sh:description   "Een notatie is een korte code, zoals \"Ca t\" of \"PCB 28 o\", die een kwantificeerbaar aspect aanduidt. De notatie is niet uniek: hetzelfde aspect kan voor verschillende dragers met dezelfde notatie voorkomen; de uri is de identifier."@en ;
     rdfs:isDefinedBy omg_ont:kwantificeerbaar_aspect-ap-constraints, omg_voc:kwantificeerbaar_aspect-ap-constraints ;
     sh:datatype      xsd:string ;
     sh:nodeKind      sh:Literal ;
-    sh:property      omg_ps:kwantificeerbaar_aspect_unique_notation ;
     sh:path          skos:notation .
-
-omg_ps:kwantificeerbaar_aspect_unique_notation
-    a                  sh:PropertyShape ;
-    rdfs:label         "unieke notatie"@en ;
-    sh:name            "unieke notatie"@en ;
-    sh:description     "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een stof op unieke wijze te identificeren binnen de context van dit schema. Er kan vanuit verschillende classificatiesystemen, met meerdere notaties verwezen worden naar een stof, maar een notatie is uniek voor een stof, ttz. vanuit 1 notatie kan slechts naar 1 stof worden verwezen."@en ;
-    rdfs:isDefinedBy   omg_ont:kwantificeerbaar_aspect-ap-constraints, omg_voc:kwantificeerbaar_aspect-ap-constraints ;
-    sh:nodeKind        sh:IRI ;
-    sh:targetObjectsOf skos:notation ;
-    sh:path            [ sh:inversePath skos:notation ] ;
-    sh:minCount        1 ;
-    sh:maxCount        1 .
 
 
 omg_ps:kwantificeerbaar_aspect_schema_hasTopConcept
@@ -344,9 +331,8 @@ omg_ps:kwantificeerbaar_aspect_rdf_type
     a                sh:PropertyShape ;
     rdfs:label       "rdf type"@en ;
     sh:name          "rdf type"@en ;
-    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is."@en ;
+    sh:description   "Aanduiding dat een bron een instantie van een bepaalde klasse is. Een concept kan meerdere types hebben, bv. skos:Concept en par:Parameter."@en ;
     rdfs:isDefinedBy omg_ont:kwantificeerbaar_aspect-ap-constraints, omg_voc:kwantificeerbaar_aspect-ap-constraints ;
-    sh:maxCount      1 ;
     sh:minCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          rdf:type .

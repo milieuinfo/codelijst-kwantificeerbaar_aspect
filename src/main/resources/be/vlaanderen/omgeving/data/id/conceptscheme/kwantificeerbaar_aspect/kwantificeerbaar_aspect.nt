@@ -6122,11 +6122,13 @@
 <https://data.omgeving.vlaanderen.be/id/concept/waardebepaling/SWB_9> <http://www.w3.org/2004/02/skos/core#notation> "SWB_9" .
 <https://data.omgeving.vlaanderen.be/id/concept/waardebepaling/SWB_9> <http://www.w3.org/2004/02/skos/core#prefLabel> "standaard per droge stof"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/waardebepaling/SWB_9> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/waardebepaling> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/drager> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.omgeving.vlaanderen.be/id/dataset/codelijst-kwantificeerbaar_aspect> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/drager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/drager> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/drager/DR_1> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/drager> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/drager/DR_2> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/drager> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/drager/DR_3> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/drager> <http://www.w3.org/2004/02/skos/core#prefLabel> "conceptschema drager"@nl .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/kwantificeerbaar_aspect> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.omgeving.vlaanderen.be/id/dataset/codelijst-kwantificeerbaar_aspect> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/kwantificeerbaar_aspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/kwantificeerbaar_aspect> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/kwantificeerbaar_aspect/ONB> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/kwantificeerbaar_aspect> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/kwantificeerbaar_aspect/P_1004> .
@@ -6627,6 +6629,7 @@
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/kwantificeerbaar_aspect> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/kwantificeerbaar_aspect/P_985> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/kwantificeerbaar_aspect> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/kwantificeerbaar_aspect/P_992> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/kwantificeerbaar_aspect> <http://www.w3.org/2004/02/skos/core#prefLabel> "conceptschema kwantificeerbaar_aspect"@nl .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/waardebepaling> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.omgeving.vlaanderen.be/id/dataset/codelijst-kwantificeerbaar_aspect> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/waardebepaling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/waardebepaling> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/waardebepaling/Onbekend> .
 <https://data.omgeving.vlaanderen.be/id/conceptscheme/waardebepaling> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/waardebepaling/SWB_10> .
